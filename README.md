@@ -24,4 +24,3 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/850245533838868480/8502
 
 ## Authors
 
-Julija: https://github.com/julijajarmale
