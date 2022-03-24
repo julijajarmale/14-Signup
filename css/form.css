@@ -6,6 +6,7 @@
     width:100%;
     margin-bottom:30px;
     }
+
     
     .form > .form-row:last-of-type {
     width:100%;
@@ -16,11 +17,32 @@
     width:100%;
     margin-bottom:5px;
     display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #777;
+
     }
     
     
     .form > .form-row > .input {
     width:100%;
+    border:none;
+    border-bottom: 2px solid #777; 
+    padding-top: 5px;
+    padding-bottom:5px;
+
     }
+.form span{
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
     
-    
+.form a{
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.form sa:hover{
+    text-decoration: underline;
+}

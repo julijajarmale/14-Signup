@@ -25,20 +25,18 @@ margin-top: 100px;
     background-color: #008fae;
     background-image: url(../img/hill.png);
     color:#fff;
-    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
-  
-
 }
+
 .main-title{
 width: 100%;
 color:#fff;
 font-size: 40px;
 font-weight: normal;
-margin-bottom: 250px;
+margin-bottom: 350px;
 }
 
 .bottom-links{
@@ -51,6 +49,7 @@ margin-bottom: 250px;
 
 .right-column{
     width: 60%;
+    height: 550px;
     padding: 60px;
     float: left;
     background-color: #fff;
