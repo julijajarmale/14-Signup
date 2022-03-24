@@ -1,4 +1,4 @@
-.form{
+    .form{
     width:100%;
     
     }
@@ -32,17 +32,21 @@
     padding-bottom:5px;
 
     }
-.form span{
+    .form > .form-row > .input:focus-visible {
+        outline: none
+    }
+
+    .form span{
     line-height: 40px;
     margin-left: 10px;
     margin-right: 10px;
-}
+    }
     
-.form a{
+    .form a{
     line-height: 40px;
     text-decoration: none;
-}
+    }
 
-.form sa:hover{
+    .form sa:hover{
     text-decoration: underline;
-}
+    }
