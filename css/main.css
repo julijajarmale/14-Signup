@@ -15,34 +15,42 @@ body {
 width: 800px;
 margin-left: calc(50% - 400px);
 margin-top: 100px;
+display: inline-block;
+position: relative
 }
 
 
 .left-column{
     width: 40%;
-    float:left;
     padding: 40px;
     background-color: #008fae;
     background-image: url(../img/hill.png);
     color:#fff;
-    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-  
+    position:absolute;
+    bottom:30px;
+    top:30px;
+    left: 0px;
+    
 
 }
+
 .main-title{
 width: 100%;
 color:#fff;
 font-size: 40px;
 font-weight: normal;
-margin-bottom: 250px;
+margin-bottom: 350px;
 }
 
 .bottom-links{
     color: #fff;
+    position:absolute;
+    bottom:20px;
+    left:40px;
+    right:40px;
 }
 
 .bottom-links > .link{
@@ -51,7 +59,23 @@ margin-bottom: 250px;
 
 .right-column{
     width: 60%;
+    height: 550px;
     padding: 60px;
-    float: left;
+    float: right;
     background-color: #fff;
+    position:relative;
 }
+.close{
+width: 60px;
+height: 60px; 
+font-size:30px;
+text-align: center;
+line-height: 54px;
+position:absolute;
+right:0px;
+top: 0px;
+color:rgba(119, 119, 119, 0.473);
+cursor:pointer;
+
+}
+
